@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Мобильное веб-приложение jQuery</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.dialog.custom.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.button.custom.min.js" type="text/javascript"></script>
+</head> 
+<body>
+
+<iframe></iframe>
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Settings</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+         <li><a href="#page2">Web server user</a></li>
+           <li><a href="#page3">Web server port</a></li>
+           <li><a href="#page4">Web server password</a></li>
+              <li><a href="#page5">Location</a></li>
+		  <li><a href="#page6">System Language</a></li>
+            <li><a href="#page7">Selection interface</a></li>
+			<li><a href="#page8">The maximum number of servers</a></li>
+         
+		</ul>	
+      <div data-role="listview">
+          </div>
+  </div>
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">	
+			
+    <div data-role="fieldcontain">
+		    <label for="textinput" style="">
+            <p align="center">Web server user:</p></label>
+		    <input type="text" name="textinput" id="textinput" value=""  />
+		    </div>
+    <a href="#" data-role="button">Save</a>
+            
+	</div>
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+		<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">	
+			
+    <div data-role="fieldcontain">
+		    <label for="textinput" style="">
+            <p align="center">Web server port:</p></label>
+		    <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+    <a href="#" data-role="button">Save</a>
+	</div>
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+		<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">	
+			
+    <div data-role="fieldcontain">
+		    <label for="textinput" style="">
+            <p align="center">Web servers password:</p></label>
+		    <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+    <a href="#" data-role="button">Save</a>
+	</div>
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+    </div>
+<div data-role="page" id="page5">
+		<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">
+    <div data-role="listview">
+      <fieldset data-role="controlgroup">
+        <p align="center">Location</p>
+        <input type="checkbox" name="checkbox1" id="checkbox1_0" class="custom" value="" />
+        <label for="checkbox1_0">Russia, Moscow</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1_1" class="custom" value="" />
+        <label for="checkbox1_1">Russia, Saint Petersburg</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1_2" class="custom" value="" />
+        <label for="checkbox1_2">Germany, Berlin</label>
+      </fieldset>
+      <a href="#" data-role="button">Save</a>
+    </div>	
+			
+
+      	
+	</div>
+	<div data-role="footer">
+	  <h4>Settings</h4>
+	</div>
+</div>
+<div data-role="page" id="page6">
+		<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <fieldset data-role="controlgroup">
+        <legend>Selection Language</legend>
+        <input type="checkbox" name="checkbox2" id="checkbox2_0" class="custom" value="" />
+        <label for="checkbox2_0">English</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2_1" class="custom" value="" />
+        <label for="checkbox2_1">Deutsch</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2_2" class="custom" value="" />
+        <label for="checkbox2_2">Russian</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2_3" class="custom" value="" />
+        <label for="checkbox2_3">French</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2_4" class="custom" value="" />
+        <label for="checkbox2_4">Japanese</label>
+      </fieldset>
+    </div>	
+			
+
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+</div>
+</div>
+<div data-role="page" id="page7">
+		<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <fieldset data-role="controlgroup">
+        <legend>Themes</legend>
+        <input type="checkbox" name="checkbox3" id="checkbox3_0" class="custom" value="" />
+        <label for="checkbox3_0">Themes_1</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3_1" class="custom" value="" />
+        <label for="checkbox3_1">Themes_2</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3_2" class="custom" value="" />
+        <label for="checkbox3_2">Themes_3</label>
+      </fieldset>
+    </div>
+    <a href="#" data-role="button">Save</a>	
+			
+
+  </div>
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+</div>
+<div data-role="page" id="page8">
+		<div data-role="header">
+		<h1>Settings</h1>
+		
+	</div>
+  <div data-role="content">	
+			
+    <div data-role="fieldcontain">
+		    <label for="textinput" style="">
+            <p align="center">The maximum number of servers:</p></label>
+		    <input type="text" name="textinput" id="textinput" value=""  />
+    </div>
+    <a href="#" data-role="button">Save</a>
+  </div>
+	<div data-role="footer">
+		<h4>Settings</h4>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+$(function() {
+	$( "#Checkboxes1" ).buttonset(); 
+});
+</script>'
+
+<script type="text/javascript">
+$(function() {
+	$( "#Checkboxes1" ).buttonset(); 
+});
+</script>
+</body>
+</html>
